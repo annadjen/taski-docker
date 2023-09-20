@@ -121,7 +121,6 @@ jobs:
           context: ./gateway/
           push: true
           tags: annadjen/taski_gateway:latest
-  
   deploy:
     runs-on: ubuntu-latest
     needs: 
